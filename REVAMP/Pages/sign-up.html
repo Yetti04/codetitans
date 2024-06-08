@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign-up page</title>
+    <link rel="stylesheet" href="../CSS/Login.css">
+  </head>
+  <body>
+          <main>
+  <div class="login-container">
+            <div id="title">
+        <img src="../images/logo.png" style="width: 120px; height: 120px; object-position: cover;" alt="">
+        <h1>Sign up</h1>
+            </div >
+            
+            <p id="message"></p>
+
+    <form>
+      
+      <input type="text" id="reg-name" placeholder="Full name"  required>
+      <input type="email" id="reg-email" placeholder="Email address" required />
+      <input  type="text" id="country" placeholder="Country" required />
+      <input type="number" id="number" placeholder="Phone number"  required/>
+      <input type="password" id="reg-password" placeholder="Password"  required/>
+      <span id="passwordError"></span>
+      
+      <input type="password"id="Cpassword" placeholder="Confirm password" required/>
+      <span id="cpasswordError"> </span>
+</form>
+      <p>Already have an account? <a href="log-in.html">Log-in</a></p>
+      <button type="submit" id="btn">Submit</button>
+          </main>
+  </div>
+  <script src= "../JS/register.js"></script>
+  </body>
+</html>
